@@ -1,0 +1,79 @@
+.pokemon {
+  height: 100%;
+  color: #181f31;
+  display: flex;
+  justify-content: center;
+}
+
+.details {
+  width: 400px;
+  margin-right: 100px;
+  margin-top: 100px;
+}
+
+.details h1 {
+  text-transform: capitalize;
+  margin: 0px;
+}
+
+.details img {
+  width: 100%;
+}
+
+.stats {
+    background: #DDE2DC;
+    margin-top: 100px;
+    width: 800px;
+    display: flex;
+    height: fit-content;
+    justify-content: space-between;
+    padding: 50px;
+    padding-top: 0px;
+    border-radius: 50px;
+}
+
+.statValue {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.statValue h4 {
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+.name {
+  display: flex;
+  align-items: start;
+}
+
+.id {
+  margin-right: 10px !important;
+  font-weight: lighter;
+}
+
+.type {
+  margin-top: 20px;
+  display: flex;
+  align-items: start;
+}
+
+.type h3 {
+  margin: 0px 20px 0px 0px;
+}
+
+.tags {
+  color: white;
+  font-weight: bold;
+  padding: 5px 20px;
+  line-height: 1.5;
+  border-radius: 50px;
+  margin-right: 10px;
+  text-transform: capitalize;
+}
+
+.tagList {
+  display: flex;
+}
